@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: brown;
+}
+header{
+    background: black;
+    padding: 25px;
+    font-size: larger;
+}
+header > h1{
+    color: crimson;
+    text-align: center;
+    font-family: "Agency FB";
+}
+.greenGlow{
+    border: 6px solid springgreen;
+    border-radius: 50%;
+    box-shadow: 0px 0px 6px springgreen;
+}
+.redGlow{
+    border: 6px solid red;
+    border-radius: 50%;
+    box-shadow: 0px 0px 6px red;
+}
+.yellowGlow{
+    border: 6px solid yellow;
+    border-radius: 50%;
+    box-shadow: 0px 0px 6px yellow;
+}
+.score-board{
+    border: 5px solid white;
+    border-radius: 10px;
+    text-align: center;
+    width: 200px;
+    padding: 20px;
+    margin: 30px auto;
+    color: white;
+    font-family: "Agency FB";
+    font-size: 70px;
+    position: relative;
+}
+.badge{
+    background-color : crimson;
+    font-size: 25px;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+#myLabel{
+    position: absolute;
+    top: 40px;
+    left: -25px;
+}
+#cpuLabel{
+    position: absolute;
+    top: 40px;
+    right: -25px;
+}
+.result{
+    font-size: 40px;
+}
+.result>p{
+    color: white;
+    text-align: center;
+    font-family: "Agency FB";
+}
+.choices{
+    text-align: center;
+    margin-top: 40px;
+}
+.choice{
+    display: inline-block;
+    align-content: center;
+    margin: 10px;
+}
+.choice:hover{
+    cursor: pointer;
+}
+#actionMsg{
+    color: white;
+    text-align: center;
+    font-family: "Agency FB";
+    font-size: 70px;
+}
+.info{
+    background-color: #323232;
+    width: auto;
+    height: 40px;
+    margin-top: 30px;
+}
+#se7a{
+    text-align: left;
+    font-family: "Agency FB";
+    font-size: 20px;
+    padding: 7px;
+    color: white;
+}
